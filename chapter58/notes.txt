@@ -1,0 +1,21 @@
+in this chapter we will talk about react route render method 
+
+react route render method
+we will also talk about the difference betweeen render and component prop on react router.
+
+render - makes the component mount just once , then re-render when required. the component stays in the background. in other words shouldComponentUpdate will run only once. Also because the component doesn't unmount, you may run into data leakage.
+
+component - reinstiates the component on every visit (mounting and unmounting)
+
+therefore, render props works best for functional components , while component prop will work best on class based component.
+
+
+
+
+https://betterprogramming.pub/react-router-whats-the-difference-between-components-and-routes-d242f41b111d
+
+lifecycle methods
+https://www.freecodecamp.org/news/how-to-understand-a-components-lifecycle-methods-in-reactjs-e1a609840630/#:~:text=After%20the%20mounting%20phase%20where,clicking%2C%20typing%20and%20so%20on.
+
+
+unfortunately render prop is also deprecated for functional based component we have now element prop

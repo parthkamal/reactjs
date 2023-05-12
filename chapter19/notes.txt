@@ -1,0 +1,1 @@
+rewrite the greeting app using functional components , there should be no code in index.js file 

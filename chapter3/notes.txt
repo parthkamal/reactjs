@@ -1,0 +1,4 @@
+installed vs code 
+installed babel js extension 
+installed es6 extension 
+installed vscode icons extension

@@ -1,0 +1,4 @@
+in this chapter we have talked about how to run react app using vs code integrated terminal 
+
+ (which I already know :) ) 
+ 

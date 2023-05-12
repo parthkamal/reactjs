@@ -1,0 +1,3 @@
+in this chapter we have learned how to use material icons with react js so that we can have better ui 
+
+we have updated the counter app ( used in chapter 41 ) by using the material icons.

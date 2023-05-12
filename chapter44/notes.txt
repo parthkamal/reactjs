@@ -1,0 +1,16 @@
+in this chapter we will talk about npm ( node package manager ) using react js 
+
+
+what is npm ?
+
+1. npm is the world' largest software registry . 
+2. the registry contains over 8 Lakhs packages. 
+3. open source developers use npm to share software.
+
+software package manager 
+
+1. All npm packages are defined in files called package.json 
+2. the content of the package.json file must be written in json. 
+3. At least two fields must be present in the definition file  : ie. name and version. 
+
+

@@ -1,0 +1,1 @@
+in this chapter we have talked about how to installed bootstrap autocomplete extension

@@ -1,0 +1,10 @@
+es6 template literals in jsx in reactjs
+
+template literals is a part of javascript
+javascript can be written in jsx expressions { }
+for example 
+
+const firstName = "parth"
+const lastName = "kamal"
+
+<h1> {`my name is ${firstName} ${lastName}`}</h1>

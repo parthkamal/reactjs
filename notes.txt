@@ -1,0 +1,550 @@
+[react js tutorial github link]
+
+https://github.com/parthkamal/reactjs
+	
+[thapa react playlist]
+
+https://www.youtube.com/watch?v=tiLWCNFzThE&list=PLwGdqUZWnOp3aROg4wypcRhZqJG3ajZWJ
+
+
+reactjs - it is a javascript library for building user interfaces
+
+user interfaces - a ui is the part of human-computer interaction and communication in a device 
+
+This can include display screens, keyboards, a mouse and the appearance of the desktop.
+
+reactjs is not a framework. react is a javascript library for building user interfaces
+
+A framework is like the foundation upon which developers build applications for specific platforms.
+A library is a collection of prewritten code that can be used to simplify tasks. 
+The term library simply refers to a collection of code that is reused repeatedly. 
+
+About react 
+
+Component based approach - a component is one of the core building blocks of react. In other words , we can say that every application you will develop in react  will be made up of pieces called components. 
+
+Uses a declarative approach - declarative programing is a programming paradigm that expresses the logic of a computation without describing its control flow.
+
+Introduction to programming paradigms
+https://www.freecodecamp.org/news/an-introduction-to-programming-paradigms/
+
+Dom updates are handled gracefully. 
+
+Reusable code. 
+
+
+Prerequisites for react? 
+
+Basic knowledge of html, css and javascript. 
+Basic understanding of es6 features
+Basic understanding of how to use npm. 
+
+Installing node js 
+Installing vscode
+Installing create-react-app globally
+
+
+Installing create-react-app globally
+
+
+
+
+
+
+
+
+
+//folder structure
+
+node_modules - folder is the repository of modules/library which your are using inside your project
+whatever modules/ which you are importing in your project that module or library should present inside 
+the node_module folder.
+when you do npm install that time that module install inside the node_module folder, and the entry is added to package.json file.
+
+
+index.html- is the starting html of the webpage. whenever the site is visited this html is loaded first. present inside the html folder.
+index.css - is the styling file for index.html 
+index.js - is the js file for index.html (here react dom is rendering the app )
+
+Index.js file is invoked when the development server is started ( hence an important file )
+
+
+app.js - it is the javascript file for the app. invoked be react- dom from index.js
+app.css - it is the styling file for app.js components.
+
+
+//hello world app is placed inside the chapter5
+
+
+//introduction to jsx in react
+
+
+//jsx (javascript extension)
+
+
+// in index.js when we remove react module - it says that module is required for jsx-scope
+
+//jsx - whatever html like expression inside the react app gets converted to js finally. 
+we can see that using the babel compiler. to use the jsx extension we require react module
+
+
+
+
+
+
+how to render multiple elements inside ReactDOM.render() ? 
+
+
+adjacent jsx elements must be wrapped inside an enclosing tag
+
+// jsx fragment - ( <React.Fragment></eact.Fragment>) used to put multiple jsx elements inside the render method of ReactDOM
+
+
+understanding react fragment in react js
+
+why there is need for react fragment if we have div element? 
+
+when we use div in app.js render it adds that div element too inside the root div.
+
+react fragments allows you to wrap multiple elements without adding an extra node to the dom.
+this can be useful when rendering multiple child elements/components in a single parent component.
+
+jsx expressions in react
+
+//jsx expressions - you can put any valid javascript expression inside the curly braces in jsx.
+this can be used to build the reusable component for example fstrings in javascript
+
+
+//es6 template literals in jsx in reactjs
+
+template literals is a part of javascript. javascript can be written in jsx expressions { }
+for example 
+
+const firstName = "parth"
+const lastName = "kamal"
+
+<h1> {`my name is ${firstName} ${lastName}`}</h1>
+
+
+//jsx attributes - attributes defined in jsx elements are known as jsx attributes
+
+<img src=”https://google.com”  alt=”not found”/>
+
+all the html elements can be used as jsx attributes inside the jsx element
+Q. why we use className over class during css styling in react? 
+
+class is a reserved keyword in javascript (we use class in javascript to make classes)
+in react we are using jsx which is an extension of js, therefore to avoid the ambiguity between class keyword and class attribute
+we have used className in react for css stylin//jsx attributes - attributes defined in jsx elements are known as jsx attributes
+
+
+<img src=”https://google.com”  alt=”not found”/>
+
+
+all the html elements can be used as jsx attributes inside the jsx element
+
+Q. why we use className over class during css styling in react? 
+
+
+class is a reserved keyword in javascript (we use class in javascript to make classes)
+
+in react we are using jsx which is an extension of js, therefore to avoid the ambiguity between class keyword and class attribute
+
+we have used className in react for css styling
+
+how to add google fonts ? 
+
+1. in app.css use the import keyword to add (better approach)
+2. or we can use the link tag inside the index.html.
+
+internal and inline css 
+
+inline css 
+
+Css is passes as an object
+
+<h1 style = { {color: 'red', marginRight: '10px'}}> this is the heading</h1>
+
+internal css 
+
+const heading = { 
+    color: 'red', 
+    textTransform : 'capitalize'
+}
+
+<h1 style = {heading}> this is the heading </h1>
+
+
+//netflix list app in chapter9
+
+//greeting app in chapter17
+
+
+react js functional components - react js is much more than jsx, we can also use components to increase the code reusability
+
+
+//import export module in react js
+
+while making a component we use import and export keyword in the react js
+
+//export default keyword - it means you want to export only one value from the file which is set to be default. 
+keval ek hi value ko default rakh skte hai. baaki import krte smay usko hm kuch bhi naam de skte. 
+
+
+//export foo - ye default nhi hai to phir isko import karne ke liye hame (import foo from './file';) likhna padega
+
+suppose you make a jsx file - 
+
+....
+const youtuber = 'parthkamal'
+const college = 'iitk'
+
+export default youtuber; 
+export default { college };
+...
+
+
+//calculator-app in chapter21
+
+reactjs javascript array map method
+
+the map() method creates a new array with the results of calling a function for every array element
+
+the map() method calls the provided function once for each element in an array , in order. 
+
+//syntax: array.map(function(currentValue,index, arr), thisValue)
+
+currentValue -- Required. The value of the current element
+index -- the array index of the current element
+arr -- the array object the current elements belongs to.
+
+
+// If else statement in react js
+
+if(condition) {
+    // do this
+}else {
+    //do this 
+}
+
+// conditional rendering in react js
+
+conditional rendering can be implemented using ternary operator 
+
+// syntax : 
+
+(condition) ? {expression if true} : {expression if false}
+
+//example : 
+
+{ (favMovie == "netflix")? <Netflix/> : <Amazon/>}
+
+// hooks in react js 
+
+1. hooks are the new feature introduced in Reactjs 16.8 version. 
+2. It allows you to use state and other React features without writing a class. 
+   Hooks are the functions which "hooks into" React STate and lifecycle features from function components. 
+3. It does not work inside classes. 
+4. Hooks should always be used at the top level of the React functions. 
+
+
+//useState in react js
+
+this function returns the array of functions , first element is the current data, second one is the updating function
+
+// const [count, setcount ] = useState(0);
+
+setcount takes the updated value of the count, which then updates the values the value of the count
+
+
+
+// array destructuring in react js 
+
+const array = [ 1,2,3]
+
+const [first,second,third] = array; 
+
+//first - 1, second -2, third -3 
+
+
+//slot_machine project in chapter29
+
+// react events 
+
+Just like html - dom events , we can handle events in react js
+It's just that the event will be changed to camel case
+and the value will be passed by the executing function name only.
+
+<button onclick =”foo()” >click  me</button>    (in html dom)
+<button onClick = { foo } >click me </button>    (in react js)
+
+//react forms
+
+We can use react components to build a form, based on the controlled we have two types of components - 
+
+We should also use form tags to build forms. (it helps)
+
+//controlled and uncontrolled components - 
+
+Controlled components - isme jo parent elements hota hai wo pura behavior control karta hai andar ke saare elements ka for example by using props. No internal state is managed (like using value in input element
+
+Uncontrolled components - isme dom internal state ko manage krta hai. Andar ke elements ki internal state manage hoti hai. For example in using forms ( we can design something like 
+<input defaultValue = “something” onChange = {() => {foo()}}></input>
+ 
+
+//react-forms in chapter34
+
+//login-form in chapter37
+
+
+//managing state using state hook
+loginWe can also pass For example an object inside the useState hook 
+
+
+// the example is given in chapter37 
+
+//Login form in chapter37
+
+
+//spread operator in reactjs 
+
+The javascript spread operator allows us to quickly copy all or part of an existing array or object into another array or object 
+
+
+For example 1; 
+
+let array1 = [1,2,3] 
+let array2 = [4,5,6] 
+
+Let concatenatedArray = [...array1,...array2];
+
+
+const obj1 = {
+  name: "parth kamal",
+  email: "kamalparth40@gmail.com",
+  age: 12
+}
+
+const obj2 = {
+  ...obj1,
+  email: "parthkug@iitk.ac.in"
+  
+}
+
+console.log(obj2);
+
+// { name: "parth kamal", email: "parthkug@iitk.ac.in"}
+
+
+// todo list in chapter40
+//counter app in chapter41
+
+
+in this chapter we will talk about npm ( node package manager ) using react js 
+
+
+//what is npm ?
+
+1. npm is the world' largest software registry . 
+2. The registry contains over 8 Lakhs packages. 
+3. Open source developers use npm to share software.
+
+//software package manager 
+
+1. All npm packages are defined in files called package.json 
+2. the content of the package.json file must be written in json. 
+3. At least two fields must be present in the definition file  : ie. name and version. 
+
+
+//accordion app in chapter49
+
+//google keep app clone in chapter51
+
+//context api
+
+So, react hooks provide a concept called Context. 
+
+//definition
+React context api allows you to easily access data at different levels of the component tree, without passing prop at every level, 
+(it can be said as a alternative of redux)
+
+for example: 
+
+let say ek data  hai x usko hmko pass karna hai from component a -> component c and component hierarchy is like a -> b -> c to hmko kya karna hai ki a se c  information le jaani hai without passing it to b.
+
+for this , we need this create three function 
+
+1. useContext() , this will create the context of x
+2. provider(), jis function ka context bnana ha usko wrap krenge krenge provider function me
+3. consumer(), kisi bhi component ko access karne ke liye, hame usko consumer bnana pdega.
+Isko hm react hooks se bhi use kar skte
+
+
+blog written on useContext hook
+https://www.w3schools.com/react/react_usecontext.asp
+
+
+//useEffect hooks
+
+in this chapter we will talk about useEffect hooks
+
+useEffect is used to execute a piece of code . after rendering the component 
+
+for example we can run a piece of code whenever we render any component of the function 
+
+Basically hum log rendering of elements ke according kuch execute krwana ho to useffect ka use hota hai . jaise maanlo koi cheek keval page reload par deni hai to dependency me [ ] empty array denge. 
+
+// for example 
+
+const component = ()=> {
+
+const [count,setCount] = useState(0); 
+
+useEffect( ()=> {
+    console.log ("something changed")
+    }
+    , []); 
+
+return (
+     <div>
+
+     </div>
+);
+}
+
+
+Video tutorial for use effect hooks
+https://youtu.be/0ZJgIjIuY7U
+
+
+//react router
+
+1.react router is very useful in single page application
+2.react router is useful for client side rendering
+3.in client side rendering , we get a bare html and js file from the server.
+4.first request may be slow in the csr, but after that everything becomes fast because it is executing inside the browser only
+5.with react router, we can create routes. without actually refreshing a page ( csr in single page application)
+
+//react router in 5 minutes
+https://www.freecodecamp.org/news/react-router-in-5-minutes/
+
+there are three components of react router.
+
+1. browser router - jo app me routing lagani hai usko <browserrouter> me enclosed krdo ( used to enable routing )
+2. switch - it is like a switch (switch case statement) inside which all the conditions are matched
+3. route - it is like the routes ( each case of switch )
+
+
+//index.js
+ReactDOM.render(
+    <BrowserRouter>
+        <App />
+    </BrowserRouter>,
+    document.getElementById('root')
+)
+
+//App.js
+function App() {
+    return (
+        <main>
+            <Switch>                                                                                                             
+                <Route path="/" component={Home} exact />                                                                        
+                <Route path="/about" component={About} />                                                                        
+                <Route path="/shop" component={Shop} />                                                                          
+            </Switch>                                                                                                            
+        </main>                                                                                                                  
+    )                                                                                                                            
+}                                                                                                                                
+                                                                                                                                 
+                                                                                                                                 
+// so far our site is only navigable by tying urls, to add clickable links to the websites we use the link element               
+~
+
+//react-router in chapter56 
+//navbar in chapter56
+
+
+
+React router me hme hmesa <link> element ka use karna hai for any relative links agar < a> use kiya to phuch to jyega us path pe but reload hoga page. Which will make it slow. 
+In conclusion , we have to link for relative in - app path where as anchor tag for absolute paths. 
+
+
+
+//Render prop in react router
+
+<Route   parth = ‘/about’ render={About} />
+ 
+react route render method
+we will also talk about the difference between render and component prop on react router.
+ 
+render - makes the component mount just once , then re-render when required. the component stays in the background. in other words shouldComponentUpdate will run only once. Also because the component doesn't unmount, you may run into data leakage.
+ 
+component - reinstates the component on every visit (mounting and unmounting)
+ 
+therefore, render props works best for functional components , while component prop will work best on class based component. 
+ 
+ 
+             
+ 
+https://betterprogramming.pub/react-router-whats-the-difference-between-components-and-routes-d242f41b111d
+ 
+//lifecycle methods
+
+How to understand a components lifecycle’s methods in react js.
+https://www.freecodecamp.org/news/how-to-understand-a-components-lifecycle-methods-in-reactjs-e1a609840630
+
+//useParams hooks
+the useParams hooks is one of the hooks of react router.
+it is used to retrieve the parameters from the component rendered by the application.
+
+
+for example we are  accessing the route of /about and pass the url parameter as /fname/lname 
+
+for example localhost:3000/about/parth/kamal is the path where 'parth' and 'kamal' are dynamic url parameter
+
+to achieve this we will build the route something like 
+
+
+<Route path='/about/:fname/:lname' element={<About/>} /> 
+
+to get this fname and lname we will use useParams hook.
+
+import { useParams } from 'react-router-dom' ;
+
+const About =() => {
+
+    // useParams returns an object of url parameters. 
+
+    const { fname , lname } = useParams(); 
+    return (
+         <h1> hello {fname} {lname} </h1> 
+    );
+}
+
+
+//search-filter in chapter62
+
+
+//useLocation route
+
+useLocation saves the location of the route
+
+const value = useLocation(); 
+
+console.log(value); 
+
+// this will print 
+
+{pathname: ‘/products/school/’, search: ‘?bags’, hash: ‘’, 
+state: undefined}hash: “”pathname: “/products/school/”
+search: “?bags”state: undefined } 
+
+//something like this 
+
+//useHistory hook in react router dom 
+This hook is used to access the history of the page, in earlier we used to do it with the history api. 
+React router me error page banane ke liye hme path me * wildcard daalna padega
+
+<Route path=’*’ element={<Error/>} /> 
+
+Redirect in react router (search https://www.copycat.dev/blog/react-router-redirect/  )

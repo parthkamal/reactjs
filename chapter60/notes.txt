@@ -1,0 +1,16 @@
+in this chapter we will talk about useLocation hooks
+
+useLocation saves the location of the route
+
+
+const value = useLocation(); 
+
+console.log(value); 
+
+// this will print 
+
+{pathname: ‘/products/school/’, search: ‘?bags’, hash: ‘’, 
+state: undefined}hash: “”pathname: “/products/school/”
+search: “?bags”state: undefined } 
+
+//something like this 

@@ -1,0 +1,8 @@
+in this chapter we have build accordian using react js
+
+//features
+
+the data being passed to the accordian is dynamic in nature. 
+
+all the things in the application is dynamic in nature. 
+

@@ -1,0 +1,9 @@
+understanding react fragment in react js
+
+
+why there is need for react fragment if we have div element? 
+
+when we use div in app.js render it adds that div element too inside the root div.
+
+react fragments allows you to wrap multiple elements without adding an extra node to the dom.
+this can be useful when rendering multiple child elements/components in a single parent component.

@@ -1,0 +1,19 @@
+//import export module in react js
+
+while making a component we use import and export keyword in the react js
+
+//export default keyword - it means you want to export only one value from the file which is set to be default. 
+keval ek hi value ko default rakh skte hai. baaki import krte smay usko hm kuch bhi naam de skte. 
+
+
+//export foo - ye default nhi hai to phir isko import karne ke liye hame (import foo from './file';) likhna padega
+
+suppose you make a jsx file - 
+
+....
+const youtuber = 'parthkamal'
+const college = 'iitk'
+
+export default youtuber; 
+export default 
+...

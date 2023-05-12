@@ -1,0 +1,4 @@
+jsx expressions in react
+
+jsx expressions - you can put any valid javascript expression inside the curly braces in jsx.
+this can be used to build the reusable component for example fstrings in javascript

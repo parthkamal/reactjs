@@ -1,0 +1,4 @@
+how to add google fonts ? 
+
+1. in app.css use the import keyword to add (better approach)
+2. or we can use the link tag inside the index.html 

@@ -1,0 +1,9 @@
+react js mini project 1 - create simple greeting using react js
+
+1. create a react app from scratch 
+2. show a heading that says Hello Sir, Good Morning, if time is between 1 to 11 am
+3. good afternoon, if 12pm to 7pm 
+4. good night, if 7 pm till midnight
+5. apply css in it, then dynamically change the color of greeting parts using the inline css style
+ 
+ for ex - green , orange , black etc.

@@ -1,0 +1,2 @@
+in this chapter we will build the error page 
+and we will also discuss how to redirect it to home page when a wrong path is accessed in the url bar

@@ -1,0 +1,21 @@
+//context api
+
+So, react hooks provides a concept call Context. 
+
+//definition
+React context api allows you to easily access data at different levels of the component tree, without passing prop at every level, 
+(it can be said as a alternative of redux)
+
+for example: 
+
+let say ek data  hai x usko hmko pass karna hai from compnent a -> component c
+
+for this , we need this create three function 
+
+1. useContext() , this will create the context of x
+2. provider(), this function will be used to provide the context
+3. consumer(), kisi bhi component ko access karne ke liye, hame usko comsumer bnana pdega.
+
+
+blog written on useContext hook
+

@@ -1,0 +1,11 @@
+//introduction to jsx in react
+
+
+//jsx (javascript extension)
+
+
+// in index.js when we remove react module - it says that module is required for jsx-scope
+
+//jsx - whatever html like expression inside the react app gets converted to js finally. 
+we can see that using the babel compiler. to use the jsx extension we require react module
+

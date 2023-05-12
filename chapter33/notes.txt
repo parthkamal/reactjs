@@ -1,0 +1,11 @@
+in this chapter we will talk about events in react js 
+
+Just like html - dom events , we can handle events in react js
+Its just that the event will be changed to camel case, and the value will be passed my the executing function name only.
+
+<button onclick =”foo()” >click  me </button>    (in html dom)
+<button onClick = { foo } >click me </button>    (in react js)
+
+
+
+

@@ -1,0 +1,41 @@
+in this chapter we will work on react router 
+
+react router is very useful in single page application
+react routher is useful for client side rendering 
+in client side rendering , we get a bare html and js file from the server. 
+first request may be slow in the csr, but after that everything becomes fast because it is executing inside the browser only 
+with react router, we can create routes. without actually refreshing a page ( csr in single page application)
+
+react router in 5 minutes
+https://www.freecodecamp.org/news/react-router-in-5-minutes/
+
+there are three components of react router. 
+
+1. browser router - jo app me routing lagani hai usko <browserrouter> me enclosed krdo ( used to enable routing )
+2. switch - it is like a switch (switch case statement) inside which all the conditions are matched 
+3. route - it is like the routes ( each case of switch ) 
+
+
+//index.js
+ReactDOM.render(
+    <BrowserRouter>
+        <App />
+    </BrowserRouter>, 
+    document.getElementById('root')
+)
+
+//App.js
+function App() {
+    return (
+        <main>
+            <Switch>
+                <Route path="/" component={Home} exact />
+                <Route path="/about" component={About} />
+                <Route path="/shop" component={Shop} />
+            </Switch>
+        </main>
+    )
+}
+
+
+// so far our site is only navigable by tying urls, to add clickable links to the websites we use the link element

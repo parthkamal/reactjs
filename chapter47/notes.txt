@@ -1,0 +1,3 @@
+in this chapter we will talk about how to install bootstrap  in react js 
+
+just use :$ npm install bootstrap 

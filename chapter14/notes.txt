@@ -1,0 +1,5 @@
+why we use className over class during css styling in react? 
+
+class is a reserved keyword in javascript (we use class in javascript to make classes)
+in react we are using jsx which is an extension of js, therefore to avoid the ambiguity between class keyword and class attribute
+we have used className in react for css styling

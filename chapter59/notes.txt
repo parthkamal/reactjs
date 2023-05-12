@@ -1,0 +1,28 @@
+in this chapter we will talk about use params hooks
+
+the useParams hooks is one of the hooks of react router.
+it is used to retrieve the parameters from the component rendered by the 
+
+
+for example use want to access the route of /about and pass the url parameter as /fname/lname 
+
+for example localhost:3000/about/parth/kamal is the path where 'parth' and 'kamal' are dynamic url parameter
+
+to achieve this we will build the route something like 
+
+
+<Route path='/about/:fname/:lname' element={<About/>} /> 
+
+to get this fname and lname we will use useParams hook.
+
+import { useParams } from 'react-router-dom' ;
+
+const About =() => {
+
+    // useParams returns an object of url parameters. 
+
+    const { fname , lname } = useParams(); 
+    return (
+         <h1> hello {fname} {lname} </h1> 
+    );
+}

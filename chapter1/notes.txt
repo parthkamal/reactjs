@@ -1,0 +1,20 @@
+reactjs - it is a javascript library for building user interfaces
+
+user interfaces - a ui is the point of human-computer interaction and communication in a device .
+This can include display screens, keyboards, a mouse and the appearance of the desktop.
+
+reactjs is not a framework. react is a javascript library for building user interfaces
+
+A framework is like the foundation upon which developers build applications for specific platforms.
+A library is a collection of prewritten code that can be used to simplify tasks. 
+The term library simply refers to a collection of code that is reused repeatedly. 
+
+About react 
+
+Component based approach - a component is one of the core building blocks of react. In other words , we can say that every application you will develop in react  will be made up of pieces called components. 
+
+Uses a declarative approach - declarative programing is a programming paradigm that expresses the logic of a computation without describing its control flow.
+
+Dom updates are handled gracefully. 
+
+Reusable code. 

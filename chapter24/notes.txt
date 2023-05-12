@@ -1,0 +1,1 @@
+mapped the components of the netflix using map function in reactjs

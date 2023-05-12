@@ -1,0 +1,1 @@
+react js functional components - react js is much more than jsx, we can also use components to increase the code reusability

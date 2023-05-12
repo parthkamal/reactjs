@@ -1,0 +1,23 @@
+react js hello world program 
+
+
+//folder structure
+
+node_modules - folder is the repository of modoules/library which your are using inside your project
+whatever modules/ which you are importing in your project that module or library should present inside 
+the node_module folder.
+when you do npm install that time that module install inside the node_module folder, and the entry is added to package.json file.
+
+
+index.html- is the starting html of the webpage. whenever the site is visited this html is loaded first. present inside the html folder.
+index.css - is the styling file for index.html 
+index.js - is the js file for index.html (here react dom is rendering the app )
+
+
+app.js - it is the javascript file for the app. invoked be react- dom from index.js
+app.css - it is the styling file for app.js components.
+
+baki kaam ke nhi hai utne hi dikhane hai 
+
+
+

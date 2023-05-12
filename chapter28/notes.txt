@@ -1,0 +1,13 @@
+// conditional rendering in react js
+
+
+conditional rendering can be impolemented using ternary opearator 
+
+// syntax : 
+
+(conditon) ? {expression if true} : {expression if false}
+
+
+//example : 
+
+{ (favMovie == "netflix")? <Netflix/> : <Amazon/>}

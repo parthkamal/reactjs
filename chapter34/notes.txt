@@ -1,0 +1,14 @@
+forms in react js
+
+
+//react forms
+
+We can use react components to build a form, based on the controlled we have two types of components - 
+
+//controlled and uncontrolled components - 
+
+Controlled components - isme jo parent elements hota hai wo pura behavior control karta hai andar ke saare elements ka for example by using props. No internal state is managed (like using value in input element
+
+Uncontrolled components - isme dom internal state ko manage krta hai. Andar ke elements ki internal state manage hoti hai. For example in using forms ( we can design something like 
+<input defaultValue = “something” onChange = {() => {foo()}}></input>
+

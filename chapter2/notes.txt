@@ -1,0 +1,5 @@
+Prerequisites for react? 
+
+Basic knowledge of html, css and javascript. 
+Basic understanding of es6 features
+Basic understanding of how to use npm. 

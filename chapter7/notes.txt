@@ -1,0 +1,6 @@
+how to render multiple elements inside ReactDOM.render() ? 
+
+
+adjacent jsx elements must be wrapped inside an enclosing tag
+
+// jsx fragment - ( <></>) used to put multiple jsx elements inside the render method of ReactDOM

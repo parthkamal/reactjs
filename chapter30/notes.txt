@@ -1,0 +1,20 @@
+// hooks in react js 
+
+1. hooks are the new feature introduced in Reactjs 16.8 version. 
+2. It allows you to use state and other React features without writing a class. 
+   Hooks are the functions which "hooks into" React STate and lifecycle features from function components. 
+3. It does not work inside classes. 
+4. Hooks should always be used at the top level of the React functions. 
+
+
+//useState in react js
+
+this function returns the array of functions , first element is the currrent data, second one is the updating function
+
+// const [count, setcount ] = useState(0);
+
+setcount takes the updated value of the count, which then updates the values the value of the count
+
+
+
+// array destructuing in react js 

@@ -1,0 +1,9 @@
+in this chapter we will change the title of the webpage
+
+( here we are using counter app ) 
+
+after changing the count , we need to reflect the value in title 
+
+for that we are using useEffect hooks
+
+

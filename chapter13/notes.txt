@@ -1,0 +1,4 @@
+//jsx attributes - attributes defined in jsx elements are known as jsx attributes
+
+
+all the html elements can be used as jsx attributes inside the jsx element

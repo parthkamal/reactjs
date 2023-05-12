@@ -1,0 +1,3 @@
+//props in react js
+
+created the netflix website using props in react js

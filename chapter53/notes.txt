@@ -1,0 +1,25 @@
+in this chapter we will talk about useEffect hooks
+
+
+
+useEffect is used to execute a piece of code . after rendering the component 
+
+for example we can run a piece of code whenever we render any component of the function 
+
+// for example 
+
+const component = ()=> {
+
+const [count,setCount] = useState(0); 
+
+useEffect( ()=> {
+    console.log ("something changed")
+    }
+    , []); 
+
+return (
+     <div>
+
+     </div>
+);
+}

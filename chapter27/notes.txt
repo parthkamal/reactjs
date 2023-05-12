@@ -1,0 +1,7 @@
+If else statement in react js
+
+if(condition) {
+    // do this
+}else {
+    //do this 
+}
